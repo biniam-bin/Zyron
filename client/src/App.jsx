@@ -19,7 +19,7 @@ const App = () => {
             <SideBar />
             <Main />
           </Route>
-          <Route exact path="/login">
+          <Route exact path="/">
             <Login />
           </Route>
         </Switch>

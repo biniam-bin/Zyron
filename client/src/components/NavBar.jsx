@@ -12,7 +12,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <div className="navbar h-14 flex items-center justify-center bg-[#212529] z-20 ">
+      <div className="navbar w-full fixed h-14 flex items-center justify-center bg-[#212529] z-20 ">
         <div className="search-wrapper flex items-center w-4/6 ">
           <form className=" w-full flex items-center">
             <div className="search flex items-center bg-[#43474a] h-9 p-0 rounded-md w-11/12 md:4/6 lg:w-4/6 text-gray-400">

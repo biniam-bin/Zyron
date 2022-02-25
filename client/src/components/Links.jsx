@@ -8,7 +8,7 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 
 const Links = () => {
-  const [activeItem, setActiveItem] = useState("Home");
+  const [activeItem, setActiveItem] = useState("");
 
   const handleChange = (name) => {
     setActiveItem(name);
@@ -43,7 +43,7 @@ const Links = () => {
         // onClick={(e) => handleChange(name)}
       >
         <Link
-          to="/login"
+          to="/"
           className="flex items-center"
           style={{ fontFamily: "Lato" }}
         >
